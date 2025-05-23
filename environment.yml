@@ -1,0 +1,17 @@
+name: pennylane-qsvm-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - pip:
+    - pennylane==0.32.0
+    - pennylane-lightning==0.32.0
+    - packaging

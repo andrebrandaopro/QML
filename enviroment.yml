@@ -1,29 +1,17 @@
-name: qsvm_env
+name: qiskit-ml-benchmark
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.10
-  - numpy
-  - pandas
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - qiskit
-  - qiskit-machine-learning
-  - scipy
-  - jupyterlab
-  - notebook
-  - ipykernel
   - pip
   - pip:
-      - tensorflow
-      - torch
-      - torchvision
-      - torchaudio
-      - qiskit-aer
-      - qiskit-terra
-      - qiskit-ibmq-provider
+      - qiskit==1.0.2
+      - qiskit-machine-learning==0.7.1
+      - scikit-learn==1.1.3
       - matplotlib
       - seaborn
-      - sklearn
+      - prettytable
+      - pandas
+      - numpy
+      - ipywidgets
