@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+<<<<<<< HEAD
   - python=3.10
   - pip
   - pip:
@@ -15,3 +16,27 @@ dependencies:
       - pandas
       - numpy
       - ipywidgets
+=======
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - qiskit
+  - qiskit-machine-learning
+  - scipy
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      - tensorflow
+      - torch
+      - torchvision
+      - torchaudio
+      - qiskit-aer
+      - qiskit-terra
+      - qiskit-ibmq-provider
+      - prettytable
+>>>>>>> c8c778fbd84cca74f762909bbd46c8134eb07506
